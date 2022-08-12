@@ -1,0 +1,385 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.Container-fluid{
+    padding: 3% 3% ;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.nav-item{
+    padding: 0 18px;
+
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+
+}
+
+.img-title{
+    width: 50%;
+    margin-top: px;
+    position: relative;
+    left: 23%;
+    position: absolute;
+
+}
+
+.texth4{
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .85rem;
+    line-height: 2.5rem;
+    color: #000000;
+    position: relative;
+    top: 196px;
+    text-align: center;
+
+}
+
+.texth1{
+    font-family: 'Roboto Mono';
+    font-weight: bolder;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: #000000;
+    position: relative;
+    top: 188px;
+    text-align: center;
+
+}
+
+.texth3{
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    line-height: 3.5rem;
+    color: #1400FF;
+    position: relative;
+    top: 180px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+
+
+}
+
+#tittle .chat-button{
+    position: relative;
+    width: 50%;
+    height: 5%;
+    top: 190px;
+    left: 25%;
+}
+
+.hr-line{
+    position: relative;
+    top: 220px;
+    left: 125px;
+    border: dotted  gray 6px;
+    border-bottom: none;
+    width: 25%;
+    margin: 20px;   
+}
+
+.about-me{
+    padding: 3% 3% ;
+
+}
+
+.img-info{
+    width: 50%;
+    position: relative;
+    left: 23%;
+    top: 230px;
+
+}
+
+.heading{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1rem;
+    width: 110px;
+    position: relative;
+    top: 290px;
+    left: 235px;
+
+
+}
+
+
+
+.body{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2.5rem;
+    position: relative;
+    top: 300px;
+
+}
+
+.get-resume{
+    position: relative;
+    width: 50%;
+    height: 5%;
+    top: 350px;
+    left: 25%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.hr-btn{
+    position: relative;
+    top: 380px;
+    left: 125px;
+    border: dotted  gray 6px;
+    border-bottom: none;
+    width: 25%;
+    margin: 20px;
+}
+
+.body-skills{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1rem;
+    width: 120px;
+    position: relative;
+    top: 410px;
+    left: 235px;
+
+}
+
+
+.my-skills{
+    box-sizing: border-box;
+    position: relative;
+    width: 345px;
+    height: 498px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+        /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    top: 440px;
+    background: conic-gradient(from 90.11deg at -2.18% 94.58%, #1400FF 0deg, #FFFFFF 148.13deg, #FFFFFF 360deg);
+    box-shadow: 0px 0px 4px 3px rgba(128, 128, 128, 0.25);
+    border-radius: 10px;
+}
+
+.digital{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+.digital-h1{
+    text-align: center;
+    padding-top: 4%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.body-skill{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    /* or 253% */
+    color: #5B5B5B;
+    padding: 0 2% 0 2%;
+
+}
+
+.my-skills2{
+    box-sizing: border-box;
+    position: relative;
+    width: 345px;
+    height: 498px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;    
+    top: 490px;
+    background: conic-gradient(from 90.11deg at -2.18% 94.58%, #1400FF 0deg, #FFFFFF 148.13deg, #FFFFFF 360deg);
+    box-shadow: 0px 0px 4px 3px rgba(128, 128, 128, 0.25);
+    border-radius: 10px;
+}
+
+.hr-end{
+    position: relative;
+    top: 520px;
+    left: 125px;
+    border: dotted  gray 6px;
+    border-bottom: none;
+    width: 25%;
+    margin: 20px;   
+}
+
+.body-contact{
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1rem;
+    width: 123px;
+    position: relative;
+    top: 555px;
+    left: 235px;
+}
+
+.name-form{
+    position: relative;
+    width: 80%;
+    height: 55px;
+    left: 45px;
+    top: 570px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.25);
+    border-radius: 20px;
+    border: none;
+    outline-style: none;
+    text-align: justify;
+    display: inline-block;
+}
+
+
+.email-form{
+    position: relative;
+    width: 80%;
+    height: 55px;
+    left: 45px;
+    top: 620px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.25);
+    border-radius: 20px;
+    border: none;
+    outline-style: none;
+}
+
+.phone-form{
+    position: relative;
+    width: 80%;
+    height: 55px;
+    left: 45px;
+    top: 660px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.25);
+    border-radius: 20px;
+    border: none;
+    outline-style: none;
+}
+
+.message-form{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    left: 45px;
+    top: 700px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.25);
+    border-radius: 20px;
+    border: none;
+    outline-style: none;
+}
+
+input::placeholder{
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: .93rem;
+    padding-left: 5%;
+    opacity: 0.5;
+}
+
+textarea::placeholder{
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: .93rem;
+    padding-left: 5%;
+    opacity: 0.5;
+}
+
+.submite-btn{
+    position: relative;
+    width: 50%;
+    height: 50px;
+    left: 25%;
+    top: 740px;
+    outline-style: none;
+}
+
+#footer{
+    position: relative;
+    top: 803px;
+    text-align: center;
+    padding-bottom: 30px
+   
+
+}
+
+.tiktok{
+    margin-right: 50px;
+}
+
+.linkedin{
+    margin-left: 50px;
+}
+
+
+.bottom-footer{
+    position: relative;
+    width: 100%;
+    height: 178px;
+    left: 0px;
+    top: 806px;
+    background: #212020;
+}
+
+.footer-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-h3{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+
+}
